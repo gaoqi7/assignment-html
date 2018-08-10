@@ -1,0 +1,90 @@
+/* Color Palette
+#8D939C Gray
+#D4ADCF Light purple
+#856084 Purple
+#84E296 Light green
+#DDE1E4 Light gray
+*/ 
+
+/* Global Styles
+--------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.content-wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding:20px;
+    overflow: auto;
+}
+/* Food Styles */
+.food {
+    background-color: #d4adcf;
+}
+.food-image {
+    float: right;
+    width: 400px;
+    /* Picture still be recognized as square one by browser.  */
+    border-radius: 10%;
+}
+/* Band styles */
+.band {
+    background-color: #856084;
+}
+.band-image {
+    width: 19%;
+    /* border: 1px black solid; */
+}
+ul li {
+    display: inline-block;
+    /* margin: 0 60px 0; */
+    width: 19%;
+    margin-left: 5px;
+}
+
+.animal {
+    background-color: #84e296;
+}
+/* Header and Footer
+--------------------------*/
+header,footer {
+    background-color: #8d939c
+}
+/* Decendent selector + display property */
+footer a {
+    display: block;
+}
+/*Table Style(Use the Descendent Selector)
+--------------------------*/
+table td {
+    color:red;
+}
+
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/* Type selector */
+a {
+    color:blue;
+}
+/* Pseudo selector(specify a state) */
+a:visited {
+    color:blueviolet;
+}
+a:hover {
+    background-color: aquamarine;
+    text-decoration-line: none;
+}
